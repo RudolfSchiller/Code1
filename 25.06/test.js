@@ -88,7 +88,7 @@ r4 = parseInt(prompt("Set a number for row = d") || "1", 10);
 let a = [r1, r2, r3, r4];
 console.log("r1, r2, r3, r4");
 console.log(a);
-while ((r1 + r2 + r3 + r4) != 0) {
+while (a[0] + a[1] + a[2] + a[3] != 0) {
     let choosenrow = prompt("What number u wanna change");
     if (choosenrow == "1") {
         let EsubtA = parseInt(prompt("how much u wanna subtract") || "1", 10);
@@ -106,7 +106,7 @@ while ((r1 + r2 + r3 + r4) != 0) {
         let EsubtD = parseInt(prompt("how much u wanna subtract") || "1", 10);
         a[3] = a[3] - EsubtD;
     }
-    if ((r1 + r2 + r3 + r4) == 0) {
+    if (a[0] + a[1] + a[2] + a[3] == 0) {
         console.log(activePlayer + "won the game");
         break;
     }
@@ -123,3 +123,4 @@ while ((r1 + r2 + r3 + r4) != 0) {
             break;
     }
 }
+//# sourceMappingURL=test.js.map

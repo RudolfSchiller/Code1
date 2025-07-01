@@ -95,7 +95,7 @@ console.log("r1, r2, r3, r4");
 console.log(a);
 
 
-while ((r1 + r2 + r3 + r4) != 0) {
+while (a[0] + a[1] +a[2] +a[3] != 0) {
 
     let choosenrow = prompt("What number u wanna change");
 
@@ -119,10 +119,10 @@ while ((r1 + r2 + r3 + r4) != 0) {
     }
 
 
-    if ((r1 + r2 + r3 + r4) == 0) {
+    if (a[0] + a[1] +a[2] +a[3] == 0) {
 
         console.log(activePlayer + "won the game");
-        break
+        break;
     }
     console.log("r1, r2, r3, r4");
     console.log(a);
